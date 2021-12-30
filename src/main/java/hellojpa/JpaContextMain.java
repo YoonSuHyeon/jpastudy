@@ -21,6 +21,8 @@ public class JpaContextMain {
             member.setName("HelloJPA");
             //영속
             em.persist(member);
+            //플러시
+            em.flush();
             //1차  캐시 사용
             Member findMember = em.find(Member.class, 100L);
 //            //준영속
