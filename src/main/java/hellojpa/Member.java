@@ -3,7 +3,7 @@ package hellojpa;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+//@Entity
 public class Member {
 
     @Id
